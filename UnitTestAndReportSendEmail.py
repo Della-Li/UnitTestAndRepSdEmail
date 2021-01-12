@@ -10,8 +10,6 @@ import yagmail
 
 
 
-
-
 driver = webdriver.Chrome()
 woolworths_url = 'http://www.woolworths.com.au/'
 
@@ -82,8 +80,6 @@ if __name__ == '__main__':
 	unittest.main(verbosity=2)
 
 '''
-
-
 #email passord ：the first letter is upper case 
 #access to the email server
 def send_mail(report):
@@ -111,4 +107,4 @@ if __name__ == '__main__':
 
 	send_mail(html_report)
 
-	'''
+'''
