@@ -1,5 +1,10 @@
+import time
+import unittest
+import yagmail
+from HTMLTestRunner import HTMLTestRunner
 
-
+#clone HTMLTestRunner from  https://github.com/defnngj/HTMLTestRunner and put HTMLTestRunner.py under python directory , such as 
+#C:\Python37\Lib\
 
 
 #email passord ：the first letter is upper case 
