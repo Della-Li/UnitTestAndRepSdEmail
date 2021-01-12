@@ -6,6 +6,7 @@ import codecs
 import unittest
 from itertools import islice
 from ddt import ddt, data, file_data, unpack
+import yagmail
 
 
 
@@ -80,21 +81,21 @@ class TestWoolworths(unittest.TestCase):
 if __name__ == '__main__':
 	unittest.main(verbosity=2)
 
-
 '''
 
-#邮箱密码：Lyfyxy66 
-#连接邮箱服务器
+
+#email passord ：the first letter is upper case 
+#access to the email server
 def send_mail(report):
 	yag = yagmail.SMTP(user='senderlyf@126.com', 
 		password='KOENVNFCQTFVLQCN',
 		host='smtp.126.com')
-	subject = 'topic, autumation testing report'
+	subject = 'autumation testing report'
 	contents = 'For contents ,please check the attachment'
 	yag.send(['receiverlyf@126.com','senderlyf@126.com'], subject, contents, report)
 	print('email has sent out')
 
-#邮件正文
+#email context
 if __name__ == '__main__':
 	test_dir = './test_case'
 	suit = unittest.defaultTestLoader.discover(test_dir, pattern='test_*.py')
@@ -108,6 +109,6 @@ if __name__ == '__main__':
 	runner.run(suit)
 	fp.close()
 
-	send_mail(html_report)''
+	send_mail(html_report)
 
-'''
+	'''
