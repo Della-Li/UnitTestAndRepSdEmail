@@ -16,5 +16,7 @@ Supported Browsers:
 Run Test Steps:
 
     1. Clone this project to a local folder
-    2. Install Python ,download relative chrome driver, pip install other packages
-    3. Run this python script
+	2. Clone HTMLTestRunner from  https://github.com/defnngj/HTMLTestRunner and put HTMLTestRunner.py and __init__.py under python directory, such as 
+C:\Python37\Lib\
+    3. Install Python ,download relative chrome driver, pip install other packages
+    4. Run this python script

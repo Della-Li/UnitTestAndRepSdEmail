@@ -3,7 +3,7 @@ import unittest
 import yagmail
 from HTMLTestRunner import HTMLTestRunner
 
-#clone HTMLTestRunner from  https://github.com/defnngj/HTMLTestRunner and put HTMLTestRunner.py under python directory , such as 
+#clone HTMLTestRunner from  https://github.com/defnngj/HTMLTestRunner and put HTMLTestRunner.py and __init__.py under python directory , such as 
 #C:\Python37\Lib\
 
 
