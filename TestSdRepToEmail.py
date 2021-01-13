@@ -11,7 +11,7 @@ from HTMLTestRunner import HTMLTestRunner
 #access to the email server
 def send_mail(report):
 	yag = yagmail.SMTP(user='senderlyf@126.com', 
-		password='KOENVNFCQTFVLQCN',
+		password='XLWMZIOCIZGQGZPP',
 		host='smtp.126.com')
 	subject = 'autumation testing report'
 	contents = 'For contents ,please check the attachment'
