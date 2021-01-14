@@ -16,13 +16,10 @@ from module import Mail
 
 
 
-first_url = 'http://www.baidu.com'
+
 second_url = 'http://www.google.com'
 third_url = 'http://www.126.com'
-fourth_url = 'http://videojs.com'
-fifth_url = 'https://www.helloweba.net/demo/2017/unlock/'
-sixth_url = 'http://www.jq22.com/yanshi4976'
-seventh_url = 'http://www.126.com'
+
 
 driver = webdriver.Chrome()
 
