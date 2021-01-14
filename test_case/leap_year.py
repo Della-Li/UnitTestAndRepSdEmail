@@ -1,4 +1,6 @@
 
+
+#notice : Different indentation will cause unexplainable failure
 class LeapYear:
 	def __init__(self, year):
 		self.year = int(year)
